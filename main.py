@@ -1,5 +1,6 @@
 import turicreate
 
+
 def get_region(reg):
     if reg == 'southwest':
         return 0
@@ -42,4 +43,3 @@ if __name__ == '__main__':
     person = {'age': [age], 'sex': [sex], 'bmi': [bmi], 'children': [children], 'smoker': [smoker], 'region': [region]}
     print(person)
     print(regression_insurance_model.predict(turicreate.SFrame(person)))
-
