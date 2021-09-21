@@ -1,5 +1,5 @@
 # Insurance-Forecast
-This PyCharm project uses linear regression to predict insurace charges in the US based on some personal features
+This PyCharm project uses linear regression to predict insurance charges in the US based on some personal features
 such as age, bmi, region of the country and more, which must be provided as input to the program.
 ## Imports
 The project uses [turicreate](https://github.com/apple/turicreate) toolset to learn and evaluate insurance charges.
